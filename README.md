@@ -17,7 +17,7 @@ docker run --name cassandra -p 9042:9042 -d cassandra:latest
 docker exec -it cassandra cqlsh
 ```
 
-### 1.4 - Copy and paste below items into the CQLSH terminal
+### 1.3 - Copy and paste below items into the CQLSH terminal
 ```bash
 CREATE KEYSPACE demo WITH REPLICATION={'class': 'SimpleStrategy', 'replication_factor': 1};
 
